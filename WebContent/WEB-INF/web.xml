@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TodoApp</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+ <servlet>
+<servlet-name>Login</servlet-name>
+ <servlet-class>todo.Login</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>Login</servlet-name>
+ <url-pattern>/Login</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>AddTodo</servlet-name>
+ <servlet-class>todo.AddTodo</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>AddTodo</servlet-name>
+ <url-pattern>/AddTodo</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>ChangePassword</servlet-name>
+ <servlet-class>todo.ChangePassword</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>ChangePassword</servlet-name>
+ <url-pattern>/ChangePassword</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>Dashboard</servlet-name>
+ <servlet-class>todo.Dashboard</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>Dashboard</servlet-name>
+ <url-pattern>/Dashboard</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>EditTodo</servlet-name>
+ <servlet-class>todo.EditTodo</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>EditTodo</servlet-name>
+ <url-pattern>/EditTodo</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>Register</servlet-name>
+ <servlet-class>todo.Register</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>Register</servlet-name>
+ <url-pattern>/Register</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>RemoveTodo</servlet-name>
+ <servlet-class>todo.RemoveTodo</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>RemoveTodo</servlet-name>
+ <url-pattern>/RemoveTodo</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+<servlet-name>Logout</servlet-name>
+ <servlet-class>todo.Logout</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>Logout</servlet-name>
+ <url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
